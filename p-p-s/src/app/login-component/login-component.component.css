@@ -1,0 +1,78 @@
+.login-button {
+    font-family: 'comics', sans-serif;
+    text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+    background-color: rgb(29, 155, 240);
+    margin-top: 430px;
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 0px;
+    ;
+  }
+  
+  .login-button:hover {
+    background-color: rgb(29, 155, 240);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 18px;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 0px 0px 8px 8px yellow;
+    transition: box-shadow 0.15s ;
+  }
+  
+  .login-button:active {
+    opacity: 0.7;
+  }
+
+  .container {
+    height: 880px;
+    position:relative;
+    background-image: url("/assets/img/login-img.jpg");
+    background-repeat: no-repeat;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  /* .background-image{
+    background-image: url("/assets/img/login-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
